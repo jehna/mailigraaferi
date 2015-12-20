@@ -4,6 +4,16 @@
 This tool generates two kinds of graphics from your Thunderbird email client's
 inbox.
 
+## How to run?
+
+You can compile this project with your own data easily:
+
+1. Download/clone this repo
+2. Run the `refresh.sh` file
+3. Put all these files to your web server (even a local will do)
+
+**Done!**
+
 ## "Don't send that email" graph
 
 This generates a graph that shows how probable it is for you to receive an email

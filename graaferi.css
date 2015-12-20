@@ -1,0 +1,83 @@
+body {
+  font: 15px Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  position: absolute;
+  top: -75px;
+  left: -10px;
+  text-transform: uppercase;
+  font-size: 80px;
+  color: #FFF;
+  text-shadow: 10px 0 0 rgba(0, 0, 0, 0.1);
+}
+#stats {
+  padding-top: 100px;
+  /*background-color: hsl(44,74%, 50%);
+  /*background: hsl(13%, 74%, 46%); /*#ddbd1b;*/
+}
+.box {
+  float: left;
+  width: 600px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #FFF;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box strong {
+  display: block;
+  font-size: 90px;
+  margin: 5px 40px;
+  padding: 20px 0;
+  border: 13px dotted #FFF;
+  border-width: 13px 0 13px 0;
+  text-shadow: 10px 0 0 rgba(0, 0, 0, 0.05);
+}
+
+.box strong small {
+  font-size: 50px;
+  font-weight: bold;
+}
+.row:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+#stats .row {
+    min-width: 1800px;
+}
+
+#footer {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    width: 630px;
+    line-height: 11px;
+}
+#footer h3, #footer p {
+    margin: 0;
+}
+
+svg {
+    margin: 60px auto 20px;
+    width: 1100;
+    display: block;
+}
+
+path, line {
+    stroke: #FFF;
+    stroke-width: 5;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+line.line-now {
+    stroke-width: 4;
+    stroke-dasharray: 4, 4;
+}
+line.line-limit {
+    stroke: rgba(255,255,255,0.5);
+    stroke-width: 1;
+    /*stroke-dasharray: 5, 2;*/
+}

@@ -9,6 +9,8 @@ inbox.
 This generates a graph that shows how probable it is for you to receive an email
 *just now*. If the email flow is too much, the site's background turns to red.
 
+A good link to send as an autoresponder email to all the people you hate.
+
 ![Screenshot](http://jehna.github.io/mailigraaferi/screenshot1.png)
 
 ### Try it out

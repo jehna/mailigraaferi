@@ -4,6 +4,10 @@
 This tool generates two kinds of graphics from your Thunderbird email client's
 inbox.
 
+Point being, that over a certain limit (2 emails per hour) you can't really
+concentrate on your work anymore, because it takes up to 20 minutes to get the
+flow back on after you receive and read an just-arrived email.
+
 ## How to run?
 
 You can compile this project with your own data easily:
